@@ -19,7 +19,7 @@
     const chip = ph(asset);
     return `
     <figure class="media relative overflow-hidden">
-      <img src="${esc(asset.src)}" alt="${esc(asset.alt)}" ${extra} width="1200" height="760" />
+      <img src="${esc(asset.src)}" alt="${esc(asset.alt)}" ${extra} width="1280" height="720" />
       ${chip ? `<figcaption class="absolute left-3 bottom-3">${chip}</figcaption>` : ""}
     </figure>`;
   };
@@ -148,17 +148,13 @@
 
   const about = `
     <section id="about" class="section">
-      <div class="mx-auto max-w-7xl px-5 md:px-8 grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-20">
-        <div>
-          <p class="kicker">${esc(C.about.kicker)}</p>
+      <div class="about-story mx-auto max-w-7xl px-5 md:px-8">
+        <p class="kicker about-kicker">${esc(C.about.kicker)}</p>
+        <h2 class="display about-heading text-[clamp(2.1rem,5vw,4.4rem)]">${esc(C.about.heading)}</h2>
+        <div class="about-copy reveal">
+          ${C.about.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}
         </div>
-        <div class="reveal">
-          <h2 class="display text-[clamp(2.1rem,5vw,4.4rem)] max-w-3xl">${esc(C.about.heading)}</h2>
-          <div class="mt-8 space-y-5 max-w-2xl">
-            ${C.about.paragraphs.map((p) => `<p>${esc(p)}</p>`).join("")}
-          </div>
-          <p class="mt-10 display text-2xl md:text-3xl max-w-xl">${esc(C.about.close)}</p>
-        </div>
+        <p class="about-close display text-2xl md:text-3xl">${esc(C.about.close)}</p>
       </div>
     </section>`;
 
@@ -198,7 +194,7 @@
         <div class="tick-row mt-8">
           ${C.sanota.capabilities.map((cap) => `<span>${esc(cap)}</span>`).join("")}
         </div>
-        <div class="mt-10 portrait-frame reveal">${img(C.sanota.image, 'loading="lazy"')}</div>
+        <div class="mt-10 portrait-frame feature-photo reveal">${img(C.sanota.image, 'loading="lazy"')}</div>
         <div class="mt-6 flex flex-wrap gap-4 text-sm">
           ${C.sanota.links
             .map(
@@ -241,7 +237,7 @@
             )
             .join("")}
         </div>
-        <div class="mt-10 portrait-frame reveal">${img(C.agriculture.image, 'loading="lazy"')}</div>
+        <div class="mt-10 portrait-frame feature-photo reveal">${img(C.agriculture.image, 'loading="lazy"')}</div>
         <button class="btn btn-ghost mt-8" type="button" data-open-case>${esc(C.agriculture.cta)}</button>
       </div>
       <dialog class="dialog p-0" id="agriculture-dialog" aria-labelledby="agri-dialog-title">

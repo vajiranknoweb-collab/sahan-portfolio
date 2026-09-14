@@ -487,6 +487,47 @@ section[id],
   position: relative;
 }
 
+.about-story {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "kicker"
+    "heading"
+    "copy"
+    "close";
+}
+
+.about-kicker {
+  grid-area: kicker;
+  margin-bottom: 0;
+}
+
+.about-heading {
+  grid-area: heading;
+  max-width: 14ch;
+  margin: 0;
+}
+
+.about-copy {
+  grid-area: copy;
+}
+
+.about-copy p {
+  margin: 0;
+  max-width: 42rem;
+}
+
+.about-copy p + p {
+  margin-top: 1.25rem;
+}
+
+.about-close {
+  grid-area: close;
+  max-width: 18ch;
+  margin: 0.75rem 0 0;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -542,6 +583,11 @@ section[id],
   position: relative;
   border: 1px solid var(--line);
   background: var(--graphite);
+}
+
+.portrait-frame .media {
+  margin: 0;
+  width: 100%;
 }
 
 .portrait-frame::before,
@@ -816,12 +862,29 @@ section[id],
   min-width: 0;
 }
 
+.media {
+  margin: 0;
+}
+
 .media img {
   display: block;
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center;
+}
+
+.feature-photo .media {
+  overflow: hidden;
+}
+
+.feature-photo .media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
 }
 
 .tech-card .media {
@@ -1113,6 +1176,10 @@ textarea::placeholder {
     margin-inline: 0;
     justify-self: stretch;
   }
+  .feature-photo .media img {
+    aspect-ratio: 21 / 9;
+    max-height: 22rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1128,6 +1195,34 @@ textarea::placeholder {
   .global-layout {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 3rem;
+  }
+  .about-story {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.15fr);
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      "kicker copy"
+      "heading copy"
+      "close copy";
+    column-gap: 5rem;
+    row-gap: 1.15rem;
+    align-items: start;
+  }
+  .about-heading {
+    max-width: 9ch;
+  }
+  .about-copy p {
+    max-width: none;
+  }
+  .about-close {
+    align-self: end;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    max-width: 16ch;
+  }
+  .feature-photo .media img {
+    aspect-ratio: 21 / 9;
+    max-height: 26rem;
   }
 }
 

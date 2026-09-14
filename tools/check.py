@@ -14,7 +14,7 @@ required = [
     "js/app.js",
     "robots.txt",
     "sitemap.xml",
-    "assets/images/portrait/sahan.jpg",
+    "assets/images/portrait/sahan.webp",
     "assets/images/smart-drain/water-flow.svg",
     "assets/icons/favicon.svg",
 ]

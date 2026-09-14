@@ -14,14 +14,14 @@ window.SAHAN = {
       "Sahan Chathuranga Ranasinghe is a Sri Lankan engineer, inventor and entrepreneur working across industrial automation, IoT, robotics, software and technology-driven ventures.",
     canonical: "./",
     portrait: {
-      src: "assets/images/portrait/sahan.jpg",
+      src: "assets/images/portrait/sahan.webp",
       alt: "Professional portrait of Sahan Chathuranga Ranasinghe in a black blazer and white shirt",
       placeholder: false
     }
   },
 
   seo: {
-    ogImage: "assets/images/og-share.jpg",
+    ogImage: "assets/images/og-share.webp",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -30,7 +30,7 @@ window.SAHAN = {
       description:
         "Sri Lankan engineer, inventor and entrepreneur working across industrial automation, IoT, robotics, software and technology-driven ventures.",
       url: "./",
-      image: "assets/images/portrait/sahan.jpg",
+      image: "assets/images/portrait/sahan.webp",
       email: "info@sanotaglobal.com",
       telephone: "+94-74-070-9989",
       address: {
@@ -182,7 +182,7 @@ window.SAHAN = {
       "Waste Management"
     ],
     image: {
-      src: "assets/images/sanota/workshop.jpg",
+      src: "assets/images/sanota/workshop.webp",
       alt: "Custom industrial machinery on a Sanota workshop floor — steel frames, control cabinets and agritech line equipment",
       placeholder: false
     },
@@ -224,7 +224,7 @@ window.SAHAN = {
       stages: ["Check", "Grade", "Wash", "Dry", "Pack"]
     },
     image: {
-      src: "assets/images/agriculture/processing-line.jpg",
+      src: "assets/images/agriculture/processing-line.webp",
       alt: "Food processing line in Jaffna — bananas and mangoes checked, graded, washed and packed for export",
       placeholder: false
     },
@@ -246,7 +246,7 @@ window.SAHAN = {
       "Sahan’s published role is integrating real-time monitoring and data-driven intelligence."
     ],
     image: {
-      src: "assets/images/smart-drain/channel.jpg",
+      src: "assets/images/smart-drain/channel.webp",
       alt: "Urban flood channel with a debris screen and an IoT sensing node on the channel wall",
       placeholder: false
     },
@@ -271,7 +271,7 @@ window.SAHAN = {
         body: "A chamber designed for remote communication, monitoring, sample handling and disinfection so clinicians could inspect patients with less direct exposure.",
         credit: "Recorded by Mr. Sahan C. Ranasinghe.",
         image: {
-          src: "assets/images/covid/inspection-chamber.jpg",
+          src: "assets/images/covid/inspection-chamber.webp",
           alt: "Patient Inspection Chamber prototype — acrylic booth with glove ports for remote monitoring and sample handling",
           placeholder: false
         }
@@ -282,7 +282,7 @@ window.SAHAN = {
         body: "A semi-automated robot for transporting supplies and supporting remote patient interaction when wards needed distance.",
         credit: "Recorded with a small engineering team including Sahan C. Ranasinghe.",
         image: {
-          src: "assets/images/covid/telepresence.jpg",
+          src: "assets/images/covid/telepresence.webp",
           alt: "Semi-automated telepresence robot prototype on a workshop floor — wheeled chassis with a screen mount and supply tray",
           placeholder: false
         }
@@ -293,7 +293,7 @@ window.SAHAN = {
         body: "A rapid-deployment ICU bed concept with electrical and manual operation plus remote patient monitoring for emergency fabrication.",
         credit: "Recorded as fabrication of ICU beds for an emergency situation.",
         image: {
-          src: "assets/images/covid/icu-bed.jpg",
+          src: "assets/images/covid/icu-bed.webp",
           alt: "Rapid-deployment ICU bed prototype with a welded frame, actuator and hanging control box",
           placeholder: false
         }
@@ -304,7 +304,7 @@ window.SAHAN = {
         body: "Low-cost ventilator development recorded as collaborative work with a named engineering team during the shortage period.",
         credit: "Recorded as collaborative work with a named engineering team.",
         image: {
-          src: "assets/images/covid/ventilator.jpg",
+          src: "assets/images/covid/ventilator.webp",
           alt: "Low-cost open-source ventilator prototype on a workbench — bag compressor, tubing and control board",
           placeholder: false
         }
@@ -330,7 +330,7 @@ window.SAHAN = {
       ],
       href: "https://www.linkedin.com/company/sanotalk",
       image: {
-        src: "assets/images/ventures/sanota.jpg",
+        src: "assets/images/ventures/sanota.webp",
         alt: "Sanota factory floor — custom industrial machines being commissioned among control cabinets and cable trays",
         placeholder: false
       }
@@ -343,7 +343,7 @@ window.SAHAN = {
       capabilities: ["Software", "SaaS", "Web", "Business Systems"],
       href: "https://www.linkedin.com/company/knowebsolutions/",
       image: {
-        src: "assets/images/ventures/knoweb.jpg",
+        src: "assets/images/ventures/knoweb.webp",
         alt: "Knoweb software studio — desks, monitors and tropical window light in a small Sri Lankan office",
         placeholder: false
       }
@@ -356,7 +356,7 @@ window.SAHAN = {
       capabilities: ["Ceylon Tea", "Cinnamon", "Spices", "Sri Lankan Products"],
       href: "https://www.linkedin.com/company/crafted-leaves/",
       image: {
-        src: "assets/images/ventures/crafted-leaves.jpg",
+        src: "assets/images/ventures/crafted-leaves.webp",
         alt: "Crafted Leaves packing table — Ceylon tea leaves, cinnamon quills and spices ready for export",
         placeholder: false
       }
@@ -368,7 +368,7 @@ window.SAHAN = {
     intro:
       "A concise public record — from Richmond College and IIT Bombay through to the Smart Drain team’s 2025 WIPO Global Award.",
     image: {
-      src: "assets/images/awards/recognition.jpg",
+      src: "assets/images/awards/recognition.webp",
       alt: "Awards-hall atmosphere — a simple metal trophy on a lit stage, standing in for a public recognition record",
       placeholder: false
     }
