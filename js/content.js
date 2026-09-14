@@ -32,7 +32,7 @@ window.SAHAN = {
       url: "./",
       image: "assets/images/portrait/sahan.webp",
       email: "info@sanotaglobal.com",
-      telephone: "+94-74-070-9989",
+      telephone: "+94-71-683-4335",
       address: {
         "@type": "PostalAddress",
         streetAddress: "441/2c Wakwella Road",
@@ -466,7 +466,7 @@ window.SAHAN = {
     body: "Whether it’s an engineering challenge, a technology idea, a business opportunity or a partnership with potential for impact — Sahan is always interested in exploring what can be built.",
     cta: "Start a conversation",
     email: "info@sanotaglobal.com",
-    phone: "+94 74 070 9989",
+    phone: "+94-71-683-4335",
     address: "441/2c Wakwella Road, Galle, Sri Lanka",
     linkedin: "https://www.linkedin.com/in/sahanranasinghe",
     linkedinLabel: "linkedin.com/in/sahanranasinghe",
