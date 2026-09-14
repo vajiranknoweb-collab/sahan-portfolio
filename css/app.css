@@ -11,6 +11,7 @@
   --lime-dim: rgba(245, 196, 0, 0.12);
   --header-bg: rgba(7, 21, 48, 0.92);
   --backdrop: rgba(7, 21, 48, 0.78);
+  --radius: 0.625rem;
   --safe: 1.15rem;
   --display: "Space Grotesk", system-ui, sans-serif;
   --body: "Manrope", system-ui, sans-serif;
@@ -233,7 +234,7 @@ a {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 0.65rem 0.9rem;
-  border-radius: 0.625rem;
+  border-radius: var(--radius);
 }
 
 .sr-only {
@@ -402,7 +403,7 @@ a {
   width: fit-content;
   max-width: 100%;
   padding: 0.95rem 1.1rem 1.05rem;
-  border-radius: 0.625rem;
+  border-radius: var(--radius);
   background: rgba(7, 21, 48, 0.64);
   box-shadow: 0 0 0 1px rgba(245, 196, 0, 0.1);
   backdrop-filter: blur(8px);
@@ -559,7 +560,7 @@ section[id],
   text-transform: uppercase;
   padding: 0.95rem 1.15rem;
   border: 1px solid var(--lime);
-  border-radius: 0.625rem;
+  border-radius: var(--radius);
 }
 
 .btn-primary {
@@ -604,11 +605,14 @@ section[id],
   position: relative;
   border: 1px solid var(--line);
   background: var(--graphite);
+  border-radius: var(--radius);
 }
 
 .portrait-frame .media {
   margin: 0;
   width: 100%;
+  overflow: hidden;
+  border-radius: inherit;
 }
 
 .portrait-frame::before,
@@ -881,10 +885,14 @@ section[id],
   background: var(--graphite);
   border: 1px solid var(--line);
   min-width: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
 }
 
 .media {
   margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
 }
 
 .media img {
@@ -894,6 +902,7 @@ section[id],
   aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center;
+  border-radius: inherit;
 }
 
 .feature-photo .media {
@@ -911,6 +920,11 @@ section[id],
 .tech-card .media {
   border-bottom: 1px solid var(--line);
   position: relative;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.tech-card .media img {
+  border-radius: inherit;
 }
 
 .award-item {
@@ -938,6 +952,7 @@ section[id],
   width: 100%;
   max-width: none;
   margin-inline: auto;
+  border-radius: var(--radius);
 }
 
 .map-stage {
@@ -1044,6 +1059,7 @@ input, textarea, select {
   color: var(--mist);
   padding: 0.85rem 0.9rem;
   font: inherit;
+  border-radius: var(--radius);
 }
 
 /* Native dropdown menus often paint a light panel; force readable option text */
