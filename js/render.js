@@ -112,11 +112,13 @@
             ${img(C.profile.portrait, 'loading="eager" fetchpriority="high"')}
           </div>
           <div class="hero-meta">
-            <p class="hero-name">${esc(C.profile.name)}</p>
-            <p class="muted hero-supporting">${esc(C.hero.supporting)}</p>
-            ${heroTaglines ? `<ul class="hero-taglines">${heroTaglines}</ul>` : ""}
-            <div class="tick-row hero-affiliations">
-              ${C.hero.affiliations.map((a) => `<span>${esc(a.role)} — ${esc(a.org)}</span>`).join("")}
+            <div class="hero-copy-panel">
+              <p class="hero-name">${esc(C.profile.name)}</p>
+              <p class="muted hero-supporting">${esc(C.hero.supporting)}</p>
+              ${heroTaglines ? `<ul class="hero-taglines">${heroTaglines}</ul>` : ""}
+              <div class="tick-row hero-affiliations">
+                ${C.hero.affiliations.map((a) => `<span>${esc(a.role)} — ${esc(a.org)}</span>`).join("")}
+              </div>
             </div>
             <div class="hero-ctas flex flex-wrap gap-3">
               ${C.hero.ctas
