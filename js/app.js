@@ -78,13 +78,15 @@
     if (reduce) {
       processEl.classList.add("is-static");
     } else {
+      const desktopProcess = window.matchMedia("(min-width: 768px)").matches;
       const processIo = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             processEl.classList.toggle("is-flowing", entry.isIntersecting);
           });
         },
-        { threshold: 0.28 }
+        /* Mobile stack is tall; 28% never intersects, so the icon timer never starts. */
+        { threshold: desktopProcess ? 0.28 : 0 }
       );
       processIo.observe(processEl);
     }
