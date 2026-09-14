@@ -99,9 +99,9 @@ window.SAHAN = {
     kicker: "From Galle to Global",
     heading: "Engineering ideas into impact",
     paragraphs: [
-      "Sahan Chathuranga Ranasinghe is a Sri Lankan engineer, inventor and entrepreneur whose work spans industrial automation, robotics, embedded systems, IoT, software and technology-driven businesses.",
-      "His engineering journey began with a fascination for building things. As a student, he represented Sri Lanka at international robotics competitions and won the Best Design Prize at the 2007 Micro Mouse competition at IIT Bombay. He later graduated in Electronic & Telecommunication Engineering from the University of Moratuwa and built his career around solving practical engineering problems.",
-      "Today, Sahan leads and contributes to ventures across engineering, technology and international trade. Through Sanota, he works with industrial automation, custom machinery, IoT and smart manufacturing. Through Knoweb, he is involved in digital and software solutions. Through Crafted Leaves, he is involved in taking Sri Lankan products to international markets."
+      "Is a Sri Lankan engineer, inventor and entrepreneur whose work spans industrial automation, robotics, embedded systems, IoT, software and technology-driven businesses.",
+      "Engineering journey began with a fascination for building things. As a student, represented Sri Lanka at international robotics competitions and won the Best Design Prize at the 2007 Micro Mouse competition at IIT Bombay. Later graduated in Electronic & Telecommunication Engineering from the University of Moratuwa and built a career around solving practical engineering problems.",
+      "Leads and contributes to ventures across engineering, technology and international trade. Through Sanota, work covers industrial automation, custom machinery, IoT and smart manufacturing. Through Knoweb, digital and software solutions. Through Crafted Leaves, taking Sri Lankan products to international markets."
     ],
     close: "Find a real problem. Build a smarter solution. Make it useful at scale."
   },
@@ -110,7 +110,7 @@ window.SAHAN = {
     {
       year: "2003",
       title: "Richmond College, Galle",
-      body: "Darrel Medal; older CV material records this as recognition for the best all-round A/L student. Also records quiz achievements."
+      body: "Darrel Medal, awarded as recognition for the best all-round A/L student, along with quiz achievements."
     },
     {
       year: "2004–09",
@@ -145,7 +145,7 @@ window.SAHAN = {
     {
       year: "2020",
       title: "Healthcare inventions",
-      body: "Healthcare-oriented engineering inventions from the COVID-19 period, including inspection, telepresence, ICU-bed and ventilator concepts recorded with the Sri Lanka Inventors Commission."
+      body: "Healthcare-oriented engineering inventions from the COVID-19 period, including inspection, telepresence, ICU-bed and ventilator concepts registered with the Sri Lanka Inventors Commission."
     },
     {
       year: "2021–",
@@ -155,7 +155,7 @@ window.SAHAN = {
     {
       year: "2025",
       title: "WIPO Global Award",
-      body: "Part of the Smart Drain team as IoT and Technology Partner; Smart Drain received a 2025 WIPO Global Award."
+      body: "Was part of the Smart Drain team as IoT and Technology Partner; Smart Drain received a 2025 WIPO Global Award."
     },
     {
       year: "Today",
@@ -170,7 +170,7 @@ window.SAHAN = {
     name: "Sanota",
     role: "Managing Director",
     headline: "Building machines that make industries smarter.",
-    body: "Sanota is an engineering and technology business spanning industrial automation, robotics, embedded systems, IoT and machinery. Public material describes a manufacturing and engineering practice with reach across more than ten countries, including the USA, Denmark, Japan, the UK and Singapore.",
+    body: "Sanota is an engineering and technology business spanning industrial automation, robotics, embedded systems, IoT and machinery, with a manufacturing and engineering practice across more than ten countries, including the USA, Denmark, Japan, the UK and Singapore.",
     capabilities: [
       "Industrial Automation",
       "Robotics",
@@ -207,7 +207,7 @@ window.SAHAN = {
     headline: "From field to export.",
     title: "Smart Agriculture — food processing plant, Jaffna",
     summary:
-      "Public material describes a Sanota-built food-processing plant connected to a World Bank-backed agricultural initiative in Jaffna involving 500+ farmers and 500 acres across bananas and mangoes. The plant handles checking, grading, washing, drying and export-ready packaging.",
+      "A Sanota-built food-processing plant connected to a World Bank-backed agricultural initiative in Jaffna involving 500+ farmers and 500 acres across bananas and mangoes. The plant handles checking, grading, washing, drying and export-ready packaging.",
     metrics: [
       { value: 500, suffix: "+", label: "Farmers" },
       { value: 500, suffix: "", label: "Acres" },
@@ -217,8 +217,8 @@ window.SAHAN = {
     detail: {
       heading: "A processing line built for export-ready produce",
       paragraphs: [
-        "The plant is described as the point where fruit is checked, graded, washed, dried and packaged to export-ready standards — connecting field production with a consistent processing line.",
-        "The public record places the work in Jaffna, across bananas and mangoes, and associates the initiative with World Bank backing and more than 500 farmers on 500 acres.",
+        "The plant is where fruit is checked, graded, washed, dried and packaged to export-ready standards — connecting field production with a consistent processing line.",
+        "The work is in Jaffna, across bananas and mangoes, with World Bank backing and more than 500 farmers on 500 acres.",
         "The line is a practical bridge between smallholder production and export logistics — the same instinct that runs through Sanota’s wider manufacturing work: take a messy field problem and turn it into a repeatable industrial process."
       ],
       stages: ["Check", "Grade", "Wash", "Dry", "Pack"]
@@ -238,12 +238,12 @@ window.SAHAN = {
     role: "IoT and Technology Partner",
     org: "Smart Drain / Urban Inventors",
     summary:
-      "Sahan is publicly described as Smart Drain’s IoT and Technology Partner. Smart Drain is an urban-flood-management solution developed by Urban Inventors. He was part of the Smart Drain team recognized with a 2025 WIPO Global Award.",
+      "Is Smart Drain’s IoT and Technology Partner. Smart Drain is an urban-flood-management solution developed by Urban Inventors. Was part of the Smart Drain team recognized with a 2025 WIPO Global Award.",
     recognition: "WIPO Global Awards 2025 — team recognition",
     points: [
       "Urban flood-management solution developed by Urban Inventors.",
       "Designed to keep water moving even when drains are clogged with debris.",
-      "Sahan’s published role is integrating real-time monitoring and data-driven intelligence."
+      "Integrating real-time monitoring and data-driven intelligence."
     ],
     image: {
       src: "assets/images/smart-drain/channel.webp",
@@ -263,13 +263,13 @@ window.SAHAN = {
     kicker: "COVID-19 period",
     heading: "Engineering under pressure.",
     intro:
-      "Healthcare-oriented engineering inventions from the COVID-19 period, recorded with the Sri Lanka Inventors Commission and related public material.",
+      "Healthcare-oriented engineering inventions from the COVID-19 period, including work registered with the Sri Lanka Inventors Commission.",
     projects: [
       {
         title: "Patient Inspection Chamber",
         year: "2020",
         body: "A chamber designed for remote communication, monitoring, sample handling and disinfection so clinicians could inspect patients with less direct exposure.",
-        credit: "Recorded by Mr. Sahan C. Ranasinghe.",
+        credit: "Developed by Sahan C. Ranasinghe.",
         image: {
           src: "assets/images/covid/inspection-chamber.webp",
           alt: "Patient Inspection Chamber prototype — acrylic booth with glove ports for remote monitoring and sample handling",
@@ -280,7 +280,7 @@ window.SAHAN = {
         title: "Semi-Automated Telepresence Robot",
         year: "2020",
         body: "A semi-automated robot for transporting supplies and supporting remote patient interaction when wards needed distance.",
-        credit: "Recorded with a small engineering team including Sahan C. Ranasinghe.",
+        credit: "Developed with a small engineering team including Sahan C. Ranasinghe.",
         image: {
           src: "assets/images/covid/telepresence.webp",
           alt: "Semi-automated telepresence robot prototype on a workshop floor — wheeled chassis with a screen mount and supply tray",
@@ -291,7 +291,7 @@ window.SAHAN = {
         title: "Smart ICU Bed",
         year: "2020",
         body: "A rapid-deployment ICU bed concept with electrical and manual operation plus remote patient monitoring for emergency fabrication.",
-        credit: "Recorded as fabrication of ICU beds for an emergency situation.",
+        credit: "Built for emergency fabrication of ICU beds.",
         image: {
           src: "assets/images/covid/icu-bed.webp",
           alt: "Rapid-deployment ICU bed prototype with a welded frame, actuator and hanging control box",
@@ -301,8 +301,8 @@ window.SAHAN = {
       {
         title: "Open-Source Ventilator",
         year: "2020",
-        body: "Low-cost ventilator development recorded as collaborative work with a named engineering team during the shortage period.",
-        credit: "Recorded as collaborative work with a named engineering team.",
+        body: "Low-cost ventilator developed with an engineering team during the shortage period.",
+        credit: "Collaborative work with an engineering team.",
         image: {
           src: "assets/images/covid/ventilator.webp",
           alt: "Low-cost open-source ventilator prototype on a workbench — bag compressor, tubing and control board",
@@ -364,12 +364,12 @@ window.SAHAN = {
   ],
 
   recognition: {
-    heading: "A short, verified record.",
+    heading: "Selected recognition.",
     intro:
-      "A concise public record — from Richmond College and IIT Bombay through to the Smart Drain team’s 2025 WIPO Global Award.",
+      "From Richmond College and IIT Bombay through to the Smart Drain team’s 2025 WIPO Global Award.",
     image: {
       src: "assets/images/awards/recognition.webp",
-      alt: "Awards-hall atmosphere — a simple metal trophy on a lit stage, standing in for a public recognition record",
+      alt: "Awards-hall atmosphere — a simple metal trophy on a lit stage",
       placeholder: false
     }
   },
@@ -379,7 +379,7 @@ window.SAHAN = {
       year: "2025",
       title: "WIPO Global Award",
       org: "Smart Drain / Urban Inventors",
-      detail: "IoT & Technology Partner. Part of the Smart Drain team recognized with the award — not a personal solo win."
+      detail: "IoT & Technology Partner. Was part of the Smart Drain team recognized with the award — not a personal solo win."
     },
     {
       year: "2007",
@@ -397,7 +397,7 @@ window.SAHAN = {
       year: "2003",
       title: "Darrel Medal",
       org: "Richmond College",
-      detail: "Archived CV material records this as recognition for the best all-round A/L student."
+      detail: "Recognition for the best all-round A/L student."
     }
   ],
 
@@ -407,7 +407,7 @@ window.SAHAN = {
       year: "2003",
       program: "A/L — Mathematics, Chemistry and Physics",
       detail:
-        "Archived CV material records 3 A passes, Island Rank 52, District Rank 3 and the Darrel Medal 2003."
+        "3 A passes, Island Rank 52, District Rank 3 and the Darrel Medal in 2003."
     },
     {
       school: "University of Moratuwa",
@@ -420,7 +420,7 @@ window.SAHAN = {
   globalFootprint: {
     heading: "Built in Sri Lanka. Designed for the world.",
     intro:
-      "Sanota’s public material describes an international reach of 10+ countries, including the USA, Denmark, Japan, the UK and Singapore. That footprint sits alongside Crafted Leaves’ international trade activity and Smart Drain’s international recognition.",
+      "Sanota’s work reaches 10+ countries, including the USA, Denmark, Japan, the UK and Singapore. That footprint sits alongside Crafted Leaves’ international trade activity and Smart Drain’s international recognition.",
     origin: {
       id: "lk",
       name: "Sri Lanka",
@@ -432,29 +432,29 @@ window.SAHAN = {
       note: "Home base for engineering, invention and ventures."
     },
     places: [
-      { id: "us", name: "USA", lat: 39.8, lng: -98.6, labelDx: 16, labelDy: -10, note: "Named in Sanota’s public international reach." },
-      { id: "dk", name: "Denmark", lat: 56.0, lng: 10.0, labelDx: 16, labelDy: -16, note: "Named in Sanota’s public international reach." },
-      { id: "uk", name: "United Kingdom", lat: 52.5, lng: -1.5, labelDx: -132, labelDy: 22, note: "Named in Sanota’s public international reach." },
-      { id: "sg", name: "Singapore", lat: 1.3, lng: 103.8, labelDx: 16, labelDy: 18, note: "Named in Sanota’s public international reach." },
-      { id: "jp", name: "Japan", lat: 36.2, lng: 138.3, labelDx: -58, labelDy: -12, note: "Named in Sanota’s public international reach." }
+      { id: "us", name: "USA", lat: 39.8, lng: -98.6, labelDx: 16, labelDy: -10, note: "Part of Sanota’s international work." },
+      { id: "dk", name: "Denmark", lat: 56.0, lng: 10.0, labelDx: 16, labelDy: -16, note: "Part of Sanota’s international work." },
+      { id: "uk", name: "United Kingdom", lat: 52.5, lng: -1.5, labelDx: -132, labelDy: 22, note: "Part of Sanota’s international work." },
+      { id: "sg", name: "Singapore", lat: 1.3, lng: 103.8, labelDx: 16, labelDy: 18, note: "Part of Sanota’s international work." },
+      { id: "jp", name: "Japan", lat: 36.2, lng: 138.3, labelDx: -58, labelDy: -12, note: "Part of Sanota’s international work." }
     ]
   },
 
   mindset: {
     heading: "The question is simple: Can this be smarter?",
     subjects: ["A machine.", "A factory.", "A city.", "A business.", "A supply chain."],
-    body: "Sahan’s documented work suggests a practical approach to innovation: identify a real problem, engineer a useful solution and build it for real-world deployment."
+    body: "A practical approach to innovation: identify a real problem, engineer a useful solution and build it for real-world deployment."
   },
 
   community: {
     heading: "Building more than companies.",
-    body: "Public material connects Sahan with the Southern Innovation Hub and an interest in strengthening innovation and entrepreneurship in Southern Sri Lanka.",
+    body: "Connected with the Southern Innovation Hub and with strengthening innovation and entrepreneurship in Southern Sri Lanka.",
     beyond: {
       heading: "Curiosity, competitions, community",
       items: [
         "Student leadership, including Buddhist Society activity at Richmond College.",
         "Rural educational seminars and charity work supporting communities in Southern Sri Lanka.",
-        "Quiz competition achievements recorded alongside the Darrel Medal years at Richmond College."
+        "Quiz competition achievements alongside the Darrel Medal years at Richmond College."
       ]
     },
     link: { label: "Southern Innovation Hub", href: "https://www.southerninnovationhub.lk/" }
@@ -463,14 +463,14 @@ window.SAHAN = {
   contact: {
     kicker: "Next",
     heading: "Let’s build what’s next.",
-    body: "Whether it’s an engineering challenge, a technology idea, a business opportunity or a partnership with potential for impact — Sahan is always interested in exploring what can be built.",
+    body: "Whether it’s an engineering challenge, a technology idea, a business opportunity or a partnership with potential for impact — always interested in exploring what can be built.",
     cta: "Start a conversation",
     email: "info@sanotaglobal.com",
     phone: "+94-71-683-4335",
     address: "441/2c Wakwella Road, Galle, Sri Lanka",
     linkedin: "https://www.linkedin.com/in/sahanranasinghe",
     linkedinLabel: "linkedin.com/in/sahanranasinghe",
-    formNote: "Messages are prepared as an email to Sanota’s public contact address. No private inbox is invented here.",
+    formNote: "Messages are sent as an email to Sanota’s contact address.",
     form: {
       name: { label: "Name", placeholder: "Your name" },
       email: { label: "Email", placeholder: "you@yourcompany.com" },
