@@ -466,7 +466,7 @@
           <p class="muted mt-5 max-w-xl">${esc(C.contact.body)}</p>
           <div class="mt-8 space-y-2 font-[family-name:var(--mono)] text-sm">
             <p><a class="underline decoration-[color:var(--lime)] underline-offset-4" href="mailto:${esc(C.contact.email)}">${esc(C.contact.email)}</a></p>
-            <p><a href="tel:${esc(String(C.contact.phone).replace(/[^\d+]/g, ""))}">${esc(C.contact.phone)}</a></p>
+            <p><a class="underline decoration-[color:var(--lime)] underline-offset-4" href="tel:${esc(String(C.contact.phone).replace(/[^\d+]/g, ""))}">${esc(C.contact.phone)}</a></p>
             <p class="muted">${esc(C.contact.address)}</p>
             <p><a class="underline decoration-[color:var(--lime)] underline-offset-4" href="${esc(C.contact.linkedin)}" target="_blank" rel="noopener noreferrer">${esc(C.contact.linkedinLabel || "LinkedIn")}</a></p>
           </div>
