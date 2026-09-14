@@ -1,0 +1,10 @@
+{
+  "name": "sahan-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal portfolio for Sahan Chathuranga Ranasinghe",
+  "scripts": {
+    "start": "npx --yes serve -l 4173 .",
+    "check": "python tools/check.py"
+  }
+}
