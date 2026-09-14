@@ -747,36 +747,12 @@ section[id],
   max-width: 16rem;
 }
 
-/* Vertical dashed connectors (mobile) */
-.process-step:not(:last-child)::before {
-  content: "";
-  position: absolute;
-  left: calc(var(--process-icon) / 2);
-  top: var(--process-icon);
-  bottom: 0.35rem;
-  width: 1.5px;
-  transform: translateX(-50%);
-  background: repeating-linear-gradient(
-    to bottom,
-    color-mix(in srgb, var(--lime) 55%, transparent) 0 6px,
-    transparent 6px 12px
-  );
-  background-size: 1.5px 12px;
-  opacity: 0.45;
-}
-
+/* Connectors are desktop-only — the vertical line cuts through copy on mobile */
+.process-step:not(:last-child)::before,
 .process-step:not(:last-child)::after {
   content: "";
+  display: none;
   position: absolute;
-  left: calc(var(--process-icon) / 2);
-  top: calc(var(--process-icon) + 0.2rem);
-  bottom: 0.55rem;
-  width: 2px;
-  transform: translateX(-50%) scaleY(0);
-  transform-origin: top center;
-  background: var(--lime);
-  box-shadow: 0 0 10px color-mix(in srgb, var(--lime) 55%, transparent);
-  opacity: 0;
   pointer-events: none;
 }
 
@@ -796,11 +772,6 @@ section[id],
 
 .process.is-flowing .process-step:not(:last-child)::before {
   opacity: 0.28;
-}
-
-.process.is-flowing .process-step:not(:last-child)::after {
-  animation: process-bridge-y var(--process-cycle) linear infinite;
-  animation-delay: calc(var(--i, 0) * var(--process-phase));
 }
 
 /*
@@ -1171,6 +1142,7 @@ textarea::placeholder {
   }
 
   .process-step:not(:last-child)::before {
+    display: block;
     left: var(--process-icon);
     right: 0.35rem;
     top: calc(var(--process-icon) / 2);
@@ -1184,9 +1156,11 @@ textarea::placeholder {
       transparent 6px 12px
     );
     background-size: 12px 1.5px;
+    opacity: 0.45;
   }
 
   .process-step:not(:last-child)::after {
+    display: block;
     left: calc(var(--process-icon) + 0.2rem);
     right: 0.55rem;
     top: calc(var(--process-icon) / 2);
@@ -1195,10 +1169,14 @@ textarea::placeholder {
     height: 2px;
     transform: translateY(-50%) scaleX(0);
     transform-origin: left center;
+    background: var(--lime);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--lime) 55%, transparent);
+    opacity: 0;
   }
 
   .process.is-flowing .process-step:not(:last-child)::after {
-    animation-name: process-bridge-x;
+    animation: process-bridge-x var(--process-cycle) linear infinite;
+    animation-delay: calc(var(--i, 0) * var(--process-phase));
   }
   .cards-scroll { grid-template-columns: repeat(2, 1fr); }
   .award-item { grid-template-columns: 6rem 1fr; align-items: baseline; }
